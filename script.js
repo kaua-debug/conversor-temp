@@ -6,7 +6,7 @@ function converter() {
     if (isNaN(temperatura)) {
 
     resultado.textContent = 'Por favor, insira um número válido.';
-    return;
+    return
 
 }
 
